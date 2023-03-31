@@ -1,0 +1,65 @@
+[
+	{
+		"name" : "First Object",
+		"secret" : "You are a wonderful person and a great friend.",
+		"number": 1,
+		"fact": "The wind is a whisper in the night",
+		"img": "assets/images/smile.png"
+	},
+	
+	{
+		"name" : "Second Object",
+		"secret" :  "You have a beautiful smile and a warm heart.",
+		"number": 2,
+		"fact": "A gentle breeze that soothes the soul",
+		"img": "assets/images/Very Mad Emoji.png"
+	}, 
+	
+	{
+		"name" : "Third Object",
+		"secret" : "You are brave and strong and capable of anything.",
+		"number": 3,
+		"fact":  "The wind is a song in the morning light",
+		"img": "assets/images/Face with Head-Bandage Emoji.png"
+	}, 
+	
+	{
+		"name" : "Fourth Object",
+		"secret" : "You are creative and talented and inspiring.",
+		"number": 4,
+		"fact": "A melody that lifts the spirit whole",
+		"img": "assets/images/Flushed Face Emoji.png"
+	},
+
+	{
+		"name" : "Fifth Object",
+		"secret" : "You are kind and generous and compassionate.",
+		"number": 5,
+		"fact":  "The wind is a force in the stormy sky",
+		"img": "assets/images/Upside-Down Face Emoji.png"
+	},
+
+	{
+		"name" : "Sixth Object",
+		"secret" : "You are smart and wise and full of insight.",
+		"number": 6,
+		"fact": "A raging gale that shakes the earth",
+		"img": "assets/images/Cold Sweat Emoji.png"
+	},
+
+	{
+		"name" : "Seventh Object",
+		"secret" : "You are fun and funny and a joy to be around.",
+		"number": 7,
+		"fact":  "The wind is a cry in the thunder's cry",
+		"img": "assets/images/Loudly Crying Face Emoji.png"
+	},
+
+	{
+		"name" : "Eighth Object",
+		"secret" : "You are amazing and awesome and I appreciate you.",
+		"number": 8,
+		"fact": "A voice that echoes pain and mirth",
+		"img": "assets/images/Heart Eyes Emoji.png"
+	}
+	]

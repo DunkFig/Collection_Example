@@ -1,0 +1,78 @@
+
+/* This makes sure I don't have any margins, so that my 
+background will be seemless with the edge of the page. */
+*{
+	margin: 0px;
+}
+
+/* Adding my background Image */
+body{
+	background-image: url('images/background-green-grass-field-pattern-texture-lawn-137664654.jpeg');
+}
+
+/* The collection holds all generated divs, 
+I am using justify content to make sure its inner divs
+are spaced across the page. */
+#collection{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+/* The styling for the generated divs */
+.divItem{
+	text-align: center;
+	flex-basis: 200px;
+	flex-shrink: 0;
+	padding: 50px;
+	gap: 100px;
+}
+
+/* Hover animation for my generated Divs */
+.divItem:hover{
+	animation: hoverDiv 3s forwards;
+}
+
+@keyframes hoverDiv{
+	from {background-color: rgba(255, 255, 255, 0);}
+	to {background-color: rgba(255, 225, 0, 0.721);}
+}
+
+
+/* The following styling are for the elements in my pop up */
+#popHolder{
+	text-align: center;
+}
+
+#exit{
+	padding: 20px;
+	float:right;
+}
+
+#popImg{
+	padding-top: 7%;
+	padding-left: 10%;
+}
+
+#popup{
+	display:none;
+	position: fixed;
+	border-radius: 20px;
+	margin-top: 10%;
+	margin-left: 25%;
+	height: 60%;
+	width: 50%;
+	background-color: bisque;
+}
+
+#popContent{
+	padding: 30px;
+}
+
+#secretContent{
+	font-size: 24px;
+	color: rgb(103, 0, 0);
+	font-style: italic;
+}
+
